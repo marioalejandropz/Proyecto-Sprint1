@@ -45,7 +45,6 @@ header {
     width: 24px;
     top: 10px;
     left: 16px;
-    z-index: 2;
 }
 
 /* hamburger menu */
@@ -74,7 +73,7 @@ header {
     position: fixed;
     width: 35px;
     height: 24px;
-    z-index: 2;
+    z-index: 1;
     border-radius: 10px;
     justify-self: center;
     align-items: center;
