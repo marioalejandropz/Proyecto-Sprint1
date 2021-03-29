@@ -9,6 +9,12 @@
         <link rel="stylesheet" href="/styles/styles-desktop.css" />
         <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon" />
         <title>Blue dot Podcast</title>
+        <script>
+            someElement.classList.add("notransition"); // Disable transitions
+            doWhateverCssChangesYouWant(someElement);
+            someElement.offsetHeight; // Trigger a reflow, flushing the CSS changes
+            someElement.classList.remove("notransition"); // Re-enable transitions
+        </script>
     </head>
     <body>
         <header>
