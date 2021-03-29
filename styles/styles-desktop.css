@@ -43,6 +43,7 @@
 
     .menu-wrap .menu > .div1 {
         display: unset;
+        opacity: unset;
     }
 
     .menu-wrap .menu > .div1 > nav {
