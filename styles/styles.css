@@ -12,13 +12,14 @@
     --text-sans: "IBM Plex Sans", sans-serif;
 }
 
-/* se agregaron estas lineas de JS para corregir un error que sucedía al cargar la página, donde se activaban las animaciones por 1 segundo y luego desaparecían 
+/* se agregaron estas lineas de JS para corregir un error que sucedía al cargar la página, donde se activaban las animaciones por 1 segundo y luego desaparecían  */
+
 .notransition {
     -webkit-transition: none !important;
     -moz-transition: none !important;
     -o-transition: none !important;
     transition: none !important;
-}*/
+}
 
 * {
     box-sizing: border-box;
